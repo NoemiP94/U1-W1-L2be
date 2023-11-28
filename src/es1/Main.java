@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-//        System.out.println("Inserisci una stringa");
-//        String insertWord = scanner.nextLine();
-//        System.out.println(stringaPariDispari(insertWord));
+        System.out.println("Inserisci una stringa");
+        String insertWord = scanner.nextLine();
+        System.out.println(stringaPariDispari(insertWord));
 
         System.out.println("Inserisci un anno");
         int insertYear = Integer.parseInt(scanner.nextLine());
