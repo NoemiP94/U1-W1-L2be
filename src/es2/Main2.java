@@ -8,6 +8,8 @@ public class Main2 {
         System.out.println("Inserisci un numero da 0 a 3");
         int insertNumber = Integer.parseInt(scanner.nextLine());
         System.out.println(numberInLetters(insertNumber));
+
+        scanner.close();
     }
 
     public static String numberInLetters(int number) {
